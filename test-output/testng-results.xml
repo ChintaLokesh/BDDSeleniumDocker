@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-04T05:49:41Z" name="Default suite" finished-at="2021-08-04T05:50:21Z" duration-ms="39420">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.Runner@573906eb]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-08-04T05:49:41Z" name="Default test" finished-at="2021-08-04T05:50:21Z" duration-ms="39420">
+      <class name="com.runner.Runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.runner.Runner@573906eb]" started-at="2021-08-04T11:19:41Z" name="setUpClass" finished-at="2021-08-04T11:19:42Z" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.Runner@573906eb]" started-at="2021-08-04T11:19:42Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-08-04T11:20:21Z" duration-ms="38859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To Find the Patient Details]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runner.Runner@573906eb]" started-at="2021-08-04T11:20:21Z" name="tearDownClass" finished-at="2021-08-04T11:20:21Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

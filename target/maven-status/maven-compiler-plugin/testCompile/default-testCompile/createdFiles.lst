@@ -1,0 +1,3 @@
+com\test\stepdefs\FindPatientRecordTest.class
+com\test\stepdefs\RegisterPatient.class
+com\runner\TestRunner.class

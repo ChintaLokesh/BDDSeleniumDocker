@@ -1,0 +1,4 @@
+com\automation\resources\GenericLibrary.class
+com\automaion\pagefactory\VitalsPage.class
+com\automaion\pagefactory\LoginPage.class
+com\automaion\pagefactory\Homepage.class

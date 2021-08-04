@@ -1,0 +1,21 @@
+version: "3"
+services:
+  hub:
+    image: selenium/hub:3.14
+    ports:
+      - "4444:4444"
+  chrome:
+    image:  selenium/node-chrome:3.14
+    depends_on:
+      - hub
+    environment:
+      - HUB_HOST=hub
+  bdd:
+    image: chintalokesh/selenium-docker-bdd
+    depends_on:
+      - chrome
+    environment:
+      - HUB_HOST=hub
+      - CUCUMBER_OPTIONS=classpath:features
+    volumes:
+      - ./output:/usr/lokesh/target
